@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #f9f9ff;
+  --color-surface-dim: #cfdaf1;
+  --color-surface-bright: #f9f9ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f0f3ff;
+  --color-surface-container: #e7eeff;
+  --color-surface-container-high: #dee8ff;
+  --color-surface-container-highest: #d8e3fa;
+  --color-on-surface: #111c2c;
+  --color-on-surface-variant: #464652;
+  --color-inverse-surface: #263142;
+  --color-inverse-on-surface: #ebf1ff;
+  --color-outline: #777683;
+  --color-outline-variant: #c7c5d4;
+  --color-surface-tint: #4f54b4;
+  --color-primary: #15157d;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #2e3192;
+  --color-on-primary-container: #9da1ff;
+  --color-inverse-primary: #c0c1ff;
+  --color-secondary: #006782;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #00cbfe;
+  --color-on-secondary-container: #005268;
+  --color-tertiary: #25292c;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #3b3f42;
+  --color-on-tertiary-container: #a6aaad;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-primary-fixed: #e1e0ff;
+  --color-primary-fixed-dim: #c0c1ff;
+  --color-on-primary-fixed: #04006d;
+  --color-on-primary-fixed-variant: #373a9b;
+  --color-secondary-fixed: #bbe9ff;
+  --color-secondary-fixed-dim: #5ed4ff;
+  --color-on-secondary-fixed: #001f29;
+  --color-on-secondary-fixed-variant: #004d63;
+  --color-tertiary-fixed: #e0e3e6;
+  --color-tertiary-fixed-dim: #c3c7ca;
+  --color-on-tertiary-fixed: #181c1e;
+  --color-on-tertiary-fixed-variant: #43474a;
+  --color-background: #f9f9ff;
+  --color-on-background: #111c2c;
+  --color-surface-variant: #d8e3fa;
+
+  --spacing-stack-sm: 12px;
+  --spacing-base: 8px;
+  --spacing-margin-mobile: 16px;
+  --spacing-stack-lg: 48px;
+  --spacing-stack-md: 24px;
+  --spacing-gutter: 24px;
+  --spacing-margin-desktop: 40px;
+  --spacing-container-max: 1280px;
+
+  --radius-sm: 0.125rem;
+  --radius-DEFAULT: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+
+  --font-sans: var(--font-inter), sans-serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
+  --font-display: var(--font-montserrat), sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+  }
+}
